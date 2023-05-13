@@ -1,0 +1,304 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.navbar {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 7px 24px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.logo img {
+    margin: 0px 24px;
+    margin-top: -10px;
+}
+
+.heading h4 {
+    text-align: left;
+    margin-left: -430px;
+    margin-top: -2px;
+}
+
+
+/* learn */
+.learn {
+    width: 100%;
+    background-color: lightgray;
+}
+
+.learn .learn_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learn .learn_main .learn_img img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.learn .learn_text {
+    position: absolute;
+    right: 268px;
+    right: 305px;
+}
+
+.learn .learn_main .learn_text h1 {
+    position: relative;
+    bottom: 28px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.learn .learn_main .learn_text p {
+    text-align: justify;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.learn .learn_main .learn_text button {
+    background-color: gray;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 8px;
+    position: relative;
+    top: 20px;
+    width: 240px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+
+/* practice */
+
+.practice .practice_main {
+    display: inline-block;
+}
+
+.practice .practice_main .practice_img img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+/* side info */
+.practice .side {
+    position: relative;
+    width: 40%;
+    float: right;
+    bottom: 427px;
+}
+
+/* orientation */
+.practice .practice_main .side .orientation {
+    position: relative;
+    left: 122px;
+}
+
+.side .orientation .O_img img {
+    width: 35%;
+    height: auto;
+    margin: 16px 16px;
+}
+
+.orientation .O_date {
+    width: 65%;
+    float: right;
+    position: relative;
+    margin: 0 -40px;
+    bottom: 145px;
+}
+
+
+/* campus */
+.practice .practice_main .side .campus {
+    position: relative;
+    top: 26px;
+    left: 122px;
+}
+
+.campus .c_img img {
+    width: 35%;
+    height: auto;
+    margin: 16px 16px;
+}
+
+.campus .c_date {
+    width: 65%;
+    float: right;
+    position: relative;
+    margin: 0 -40px;
+    bottom: 145px;
+}
+
+/*practice  text */
+.practice .practice_main .text {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.practice .practice_main .text p {
+    position: absolute;
+}
+
+.text .sub_div {
+    position: relative;
+    top: 120px;
+}
+
+/* guest lecture */
+.practice .practice_main .guest_lecture {
+    background-color: lightgray;
+    position: relative;
+    width: 40%;
+    height: 193px;
+    left: 583px;
+    float: right;
+    margin-top: -50px;
+}
+
+.guest_lecture .lecture .l_img img {
+    width: 35%;
+    height: auto;
+    margin: 16px 16px;
+}
+
+.guest_lecture .lecture .l_date {
+    width: 65%;
+    float: right;
+    position: relative;
+    margin: 0 -40px;
+    bottom: 157px;
+}
+
+
+/* images */
+.images {
+    background-color: lightgray;
+    margin-top: -275px;
+}
+.images h3 {
+    text-align: center;
+    position: relative;
+    top: 32px;
+}
+.images .row .col{
+    margin-right: 72px;
+    margin-left: 72px;
+}
+.container .col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container .card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 32px 32px;
+}
+.images .container{
+    margin-top: 32px;
+}
+
+.container .card-body{
+    margin-left: 16px;
+}
+
+/*---- thesis----- */
+.thesis .thesis_main {
+    display: inline-block;
+}
+
+.thesis .thesis_main .thesis_video video {
+    width: 50%;
+    margin: 32px 24px;
+}
+
+/* side info */
+.thesis .thesis_side {
+    position: relative;
+    width: 40%;
+    float: right;
+    bottom: 427px;
+}
+/* fisma_design */
+.thesis .thesis_main .fisma_design {
+    background-color: lightgray;
+    position: relative;
+    left: -26px;
+    top: -20px;   
+}
+
+    /* design */
+.design .d_img img {
+    width: 150px;;
+    height: auto;
+    margin: 16px 16px;
+}
+.design .d_date {
+    width: 65%;
+    float: right;
+    position: relative; 
+    bottom: 152px;
+}
+
+
+/* now */
+.thesis .thesis_main .thesis_side .now {
+    position: relative;
+    left: -26px;
+}
+
+.now .n_img img {
+    width: 150px;
+    height: auto;
+    margin: 16px 16px;
+}
+
+.now .n_date {
+    width: 65%;
+    float: right;
+    position: relative;
+    bottom: 128px;
+}
+
+/* thesis text*/
+.thesis h3{
+    text-align: center;
+    margin-top: 32px;
+}
+
+.thesis .thesis_main .thesis_text {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.thesis .thesis_main .thesis_text p {
+    position: absolute;
+}
+
+
+/* footer */
+footer{
+    margin-top: -322px;
+}
+footer pre{
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+
